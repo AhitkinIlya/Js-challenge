@@ -66,38 +66,3 @@ function checkBrackets(array, symbolOne, symbolTwo) {
   }
 
 }
-
-// function checkDistanceBetweenBrackets(array, ) {
-
-// }
-
-// function checkEven(array) {
-//   let count1 = 0;
-//   let count2 = 0;
-//   let count3 = 0;
-
-//   for(let i = 0; i < array.length; i++) {
-//     switch(array[i]) {
-//       case '[':
-//       case ']':
-//         ++count1
-//         break
-//       case '{':
-//       case '}':
-//         ++count2
-//         break
-//       case '(':
-//       case ')':
-//         ++count3
-//         break
-//       default:
-//         break
-//     }
-//   }
-
-//   if (count1 % 2 !== 0 || count2 % 2 !== 0 || count3 % 2 !== 0) {
-//     return false
-//   }
-
-//   return true
-// }
